@@ -152,7 +152,7 @@ def get_single_response():
         encrypted_data = encrypt_message(AES_KEY, AES_IV, serialized_data)
         edata = binascii.hexlify(encrypted_data).decode()
 
-        url = "https://loginbp.common.ggbluefox.com/MajorLogin"
+        url = "https://loginbp.ggblueshark.com/MajorLogin"
         headers = {
             'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_Z01QD Build/PI)",
             'Connection': "Keep-Alive",
